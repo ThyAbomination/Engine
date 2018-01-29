@@ -4,7 +4,7 @@ import java.awt.image.BufferedImage;
 public class Entity {
 	private Vector 	position = Vector.of(0, 0), 
 					velocity = Vector.of(0, 0);
-	private double speed;
+	private double speed = 3;
 
 	private BufferedImage image;
 	

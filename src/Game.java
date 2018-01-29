@@ -15,7 +15,7 @@ public class Game implements KeyListener{
 		this.width = width;
 		this.height = height;
 		
-		SpriteSheet sheet = SpriteSheet.cut("EmmySS.png", 16, 16);
+		SpriteSheet sheet = SpriteSheet.cut("EmmySS.png", 16, 23);
 	    this.player = new Entity(sheet.get("0"));
 	}
 	public void update(){
