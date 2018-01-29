@@ -27,13 +27,11 @@ public static SpriteSheet cut(String fileName, int spriteWidth, int spriteHeight
 		for(int row = 0; row <= rows; ++row){
 			BufferedImage image = sheet.getSubimage(row * spriteWidth, column * spriteHeight, spriteWidth, spriteHeight);
 			
-
 		String key = Integer.toString(column + row * columns);
 		images.put(key, image);
 		}
 	}
 	
 	return new SpriteSheet(images);
-	//test
 	}
 }
