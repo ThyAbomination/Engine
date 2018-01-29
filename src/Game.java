@@ -34,8 +34,8 @@ public class Game implements KeyListener{
 		player.update();
 		
 	}
-	public void renderUsing(Graphics2D g){
-		
+	public void renderUsing(Graphics2D gfx){
+		player.renderUsing(gfx);
 	}
 	public boolean isRunning(){
 		return running;

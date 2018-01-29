@@ -2,7 +2,8 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
 public class Entity {
-	private Vector position, velocity;
+	private Vector 	position = Vector.of(0, 0), 
+					velocity = Vector.of(0, 0);
 	private double speed;
 
 	private BufferedImage image;
