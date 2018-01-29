@@ -34,5 +34,6 @@ public static SpriteSheet cut(String fileName, int spriteWidth, int spriteHeight
 	}
 	
 	return new SpriteSheet(images);
+	//test
 	}
 }
